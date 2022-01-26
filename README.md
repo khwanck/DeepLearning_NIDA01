@@ -1,10 +1,12 @@
-# Project Title
+# Group Homework 1
 
-Simple overview of use/purpose.
+Multi-Layer Perceptron.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+ให้เวลา 2 weeks สำหรับเก็บคะแนน 10% (ส่งภายในวันศุกร์ ก่อนเริ่ม class05)
+โดยให้หา tabular data (structured data) ที่น่าสนใจ มาลองทำ MLP เพื่อเทียบกับ Traditional ML (อย่างน้อย 1 อัน) ว่าแตกต่างกันอย่างไรในแง่ต่าง ๆ และบอกเพิ่มเติมว่า ทั้ง 2 อัน มีข้อดี ข้อเสีย อย่างไร รวมถึงบอกรายละเอียดและ % contribute ของสมาชิปแต่ละคน
+ส่งผ่าน : Github (1 กลุ่มต่อ 1 url)
 
 ## Getting Started
 
@@ -26,37 +28,11 @@ An in-depth paragraph about your project and overview of use.
 code blocks for commands
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+## Team Members
+ID   | Name | Responsibility |% Contribute
+--------- | ------ | ------ | ------
+6310422062 | Nattipon Itponjaroen
+6310422066 | Kumpee Apsornpasakorn
+6310422067 | Eakarat Pimthai
+6310422068 | Khwanchai Kaewkaisorn
+6310422070 | Shularp Panitchart
