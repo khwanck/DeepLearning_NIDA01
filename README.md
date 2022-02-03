@@ -11,9 +11,11 @@ Multi-Layer Perceptron.
 # Conclusion
 
 ## Traditional Machine Learning
-```
-///////////
-```
+1. จาก EDA เราพบว่าดาต้า imbalance แต่ละ feature ไม่ค่อยมีความสัมพันธ์กัน
+2. ลองทำ classification 3 models (SVM,RF,XGB) RF ได้ผล test acc สูงสุด (~0.69)
+3. คิดว่าเนื่องจาก imbalance data ทำให้ class ที่มี data น้อยๆ (class 3,4,8) มีจำนวนdataมาให้เทรนน้อยเกินไปเลยทำให้ทายไม่ค่อยถูก
+4. ลอง oversampling เพื่อ balance data แต่ก็ไม่ช่วยให้ accurency ดีขึ้นได้
+
 ## Multi-Layer Perceptron
 
 ### Turning parameter:
@@ -33,13 +35,6 @@ Multi-Layer Perceptron.
 6.	Regularization :arrow_right: จากที่ทางกลุ่มได้ลองปรับ turning parameter ข้างต้น (จำนวน node, จำนวน hidden layer, activation function) พบว่า performance ที่ดีขึ้นนั้น จะเป็นในส่วนของ training data แต่ในขณะที่ accuracy ของ test data จะอยู่ที่ประมาณ 40-60% (loss อยู่ที่ 1-2 โดยประมาณ)ไม่ว่าจะปรับ turning parameter อย่างไร ก็ไม่สามารถ ทำให้ performance ดีขึ้นได้ ซึ่งทางกลุ่มคิดว่าเกิดจาก overfitting จึงได้ลองใส่ regularization เข้ามาเพื่อจะทำให้ test data มี accuracy ที่ดีขึ้นเข้าใกล้ training data มากขึ้น
 แต่หลังจากที่ทางกลุ่มได้ลองใส่ parameter L1, L2 รวมทั้ง L1+L2 เข้าไป พบว่า ไม่ได้ช่วยดึงให้ accuracy ของ test data สูงขึ้น รวมถึงบาง ค่า α ของ regularization นั้น กลับดึงให้ค่า accuracy ของ training data ลดลงอีกต่างหาก
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
 ## Team Members
 ID   | Name | Responsibility |% Contribute
