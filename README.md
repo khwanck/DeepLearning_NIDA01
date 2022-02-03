@@ -46,6 +46,6 @@ ID   | Name | Responsibility |% Contribute
 --------- | ------ | ------ | ------
 6310422062 | Nattipon Itponjaroen | Trian Data Set via ML  | 20%
 6310422066 | Kumpee Apsornpasakorn  | Trian Data Set via DL | 20%
-6310422067 | Eakarat Pimthai  | ETL Data Set| 20%
+6310422067 | Eakarat Pimthai  | Exploratory Data Analysis | 20%
 6310422068 | Khwanchai Kaewkaisorn  | Consolidate to Github | 20%
 6310422070 | Shularp Panitchart | Summary ML vs DL | 20%
