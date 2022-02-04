@@ -35,6 +35,11 @@ Multi-Layer Perceptron.
 6.	Regularization :arrow_right: จากที่ทางกลุ่มได้ลองปรับ turning parameter ข้างต้น (จำนวน node, จำนวน hidden layer, activation function) พบว่า performance ที่ดีขึ้นนั้น จะเป็นในส่วนของ training data แต่ในขณะที่ accuracy ของ test data จะอยู่ที่ประมาณ 40-60% (loss อยู่ที่ 1-2 โดยประมาณ)ไม่ว่าจะปรับ turning parameter อย่างไร ก็ไม่สามารถ ทำให้ performance ดีขึ้นได้ ซึ่งทางกลุ่มคิดว่าเกิดจาก overfitting จึงได้ลองใส่ regularization เข้ามาเพื่อจะทำให้ test data มี accuracy ที่ดีขึ้นเข้าใกล้ training data มากขึ้น
 แต่หลังจากที่ทางกลุ่มได้ลองใส่ parameter L1, L2 รวมทั้ง L1+L2 เข้าไป พบว่า ไม่ได้ช่วยดึงให้ accuracy ของ test data สูงขึ้น รวมถึงบาง ค่า α ของ regularization นั้น กลับดึงให้ค่า accuracy ของ training data ลดลงอีกต่างหาก
 
+# Summary of ML vs MLP
+Performance accurency ของ F1 Score ได้ผลที่ไกล้เคียงกันมาก จากการทดลองอาจจะยังไม่ได้ประโยชน์จากการใช้ Multi-Layer Perceptron
+มากนักเพราะขนาดของข้อมูลและปัญหาไม่ได้ใหญ่และยากมากนัก จึงสามารถใช้เพียงแค่ Machine Learning ก็พอสามารถใช้ทำนายข้อมูลชุดที่เลือกมาได้
+
+![image](https://github.com/khwanck/DeepLearning_NIDA01/blob/main/MLvsMLP.PNG)
 
 ## Team Members
 ID   | Name | Responsibility |% Contribute
